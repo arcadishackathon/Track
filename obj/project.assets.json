@@ -1,0 +1,639 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "CommonServiceLocator/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/NET35/Microsoft.Practices.ServiceLocation.dll": {}
+        },
+        "runtime": {
+          "lib/NET35/_._": {}
+        }
+      },
+      "DynamoVisualProgramming.Core/2.2.1.5204": {
+        "type": "package",
+        "dependencies": {
+          "DynamoVisualProgramming.ZeroTouchLibrary": "2.2.1.5204",
+          "NUnit": "2.6.3",
+          "Newtonsoft.Json": "8.0.3",
+          "Prism": "4.1.0"
+        },
+        "compile": {
+          "lib/net47/DSIronPython.dll": {},
+          "lib/net47/DesignScriptBuiltin.dll": {},
+          "lib/net47/DynamoApplications.dll": {},
+          "lib/net47/DynamoCore.dll": {},
+          "lib/net47/DynamoInstallDetective.dll": {},
+          "lib/net47/DynamoShapeManager.dll": {},
+          "lib/net47/DynamoUtilities.dll": {},
+          "lib/net47/ProtoCore.dll": {},
+          "lib/net47/VMDataBridge.dll": {}
+        },
+        "runtime": {
+          "lib/net47/_._": {}
+        }
+      },
+      "DynamoVisualProgramming.DynamoServices/2.2.1.5204": {
+        "type": "package",
+        "compile": {
+          "lib/net47/DynamoServices.dll": {}
+        },
+        "runtime": {
+          "lib/net47/_._": {}
+        }
+      },
+      "DynamoVisualProgramming.WpfUILibrary/2.2.1.5204": {
+        "type": "package",
+        "dependencies": {
+          "DynamoVisualProgramming.Core": "2.2.1.5204"
+        },
+        "compile": {
+          "lib/net47/CoreNodeModels.dll": {},
+          "lib/net47/CoreNodeModelsWpf.dll": {},
+          "lib/net47/DynamoCoreWpf.dll": {}
+        },
+        "runtime": {
+          "lib/net47/_._": {}
+        }
+      },
+      "DynamoVisualProgramming.ZeroTouchLibrary/2.2.1.5204": {
+        "type": "package",
+        "dependencies": {
+          "DynamoVisualProgramming.DynamoServices": "2.2.1.5204"
+        },
+        "compile": {
+          "lib/net47/DynamoUnits.dll": {},
+          "lib/net47/ProtoGeometry.dll": {}
+        },
+        "runtime": {
+          "lib/net47/_._": {}
+        }
+      },
+      "Newtonsoft.Json/8.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "NUnit/2.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/_._": {}
+        }
+      },
+      "Prism/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "1.0.0"
+        },
+        "compile": {
+          "lib/NET40/Microsoft.Expression.Interactions.dll": {},
+          "lib/NET40/Microsoft.Practices.Prism.Interactivity.dll": {},
+          "lib/NET40/Microsoft.Practices.Prism.dll": {},
+          "lib/NET40/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/NET40/_._": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win": {
+      "CommonServiceLocator/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/NET35/Microsoft.Practices.ServiceLocation.dll": {}
+        },
+        "runtime": {
+          "lib/NET35/_._": {}
+        }
+      },
+      "DynamoVisualProgramming.Core/2.2.1.5204": {
+        "type": "package",
+        "dependencies": {
+          "DynamoVisualProgramming.ZeroTouchLibrary": "2.2.1.5204",
+          "NUnit": "2.6.3",
+          "Newtonsoft.Json": "8.0.3",
+          "Prism": "4.1.0"
+        },
+        "compile": {
+          "lib/net47/DSIronPython.dll": {},
+          "lib/net47/DesignScriptBuiltin.dll": {},
+          "lib/net47/DynamoApplications.dll": {},
+          "lib/net47/DynamoCore.dll": {},
+          "lib/net47/DynamoInstallDetective.dll": {},
+          "lib/net47/DynamoShapeManager.dll": {},
+          "lib/net47/DynamoUtilities.dll": {},
+          "lib/net47/ProtoCore.dll": {},
+          "lib/net47/VMDataBridge.dll": {}
+        },
+        "runtime": {
+          "lib/net47/_._": {}
+        }
+      },
+      "DynamoVisualProgramming.DynamoServices/2.2.1.5204": {
+        "type": "package",
+        "compile": {
+          "lib/net47/DynamoServices.dll": {}
+        },
+        "runtime": {
+          "lib/net47/_._": {}
+        }
+      },
+      "DynamoVisualProgramming.WpfUILibrary/2.2.1.5204": {
+        "type": "package",
+        "dependencies": {
+          "DynamoVisualProgramming.Core": "2.2.1.5204"
+        },
+        "compile": {
+          "lib/net47/CoreNodeModels.dll": {},
+          "lib/net47/CoreNodeModelsWpf.dll": {},
+          "lib/net47/DynamoCoreWpf.dll": {}
+        },
+        "runtime": {
+          "lib/net47/_._": {}
+        }
+      },
+      "DynamoVisualProgramming.ZeroTouchLibrary/2.2.1.5204": {
+        "type": "package",
+        "dependencies": {
+          "DynamoVisualProgramming.DynamoServices": "2.2.1.5204"
+        },
+        "compile": {
+          "lib/net47/DynamoUnits.dll": {},
+          "lib/net47/ProtoGeometry.dll": {}
+        },
+        "runtime": {
+          "lib/net47/_._": {}
+        }
+      },
+      "Newtonsoft.Json/8.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "NUnit/2.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/_._": {}
+        }
+      },
+      "Prism/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "1.0.0"
+        },
+        "compile": {
+          "lib/NET40/Microsoft.Expression.Interactions.dll": {},
+          "lib/NET40/Microsoft.Practices.Prism.Interactivity.dll": {},
+          "lib/NET40/Microsoft.Practices.Prism.dll": {},
+          "lib/NET40/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/NET40/_._": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x64": {
+      "CommonServiceLocator/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/NET35/Microsoft.Practices.ServiceLocation.dll": {}
+        },
+        "runtime": {
+          "lib/NET35/_._": {}
+        }
+      },
+      "DynamoVisualProgramming.Core/2.2.1.5204": {
+        "type": "package",
+        "dependencies": {
+          "DynamoVisualProgramming.ZeroTouchLibrary": "2.2.1.5204",
+          "NUnit": "2.6.3",
+          "Newtonsoft.Json": "8.0.3",
+          "Prism": "4.1.0"
+        },
+        "compile": {
+          "lib/net47/DSIronPython.dll": {},
+          "lib/net47/DesignScriptBuiltin.dll": {},
+          "lib/net47/DynamoApplications.dll": {},
+          "lib/net47/DynamoCore.dll": {},
+          "lib/net47/DynamoInstallDetective.dll": {},
+          "lib/net47/DynamoShapeManager.dll": {},
+          "lib/net47/DynamoUtilities.dll": {},
+          "lib/net47/ProtoCore.dll": {},
+          "lib/net47/VMDataBridge.dll": {}
+        },
+        "runtime": {
+          "lib/net47/_._": {}
+        }
+      },
+      "DynamoVisualProgramming.DynamoServices/2.2.1.5204": {
+        "type": "package",
+        "compile": {
+          "lib/net47/DynamoServices.dll": {}
+        },
+        "runtime": {
+          "lib/net47/_._": {}
+        }
+      },
+      "DynamoVisualProgramming.WpfUILibrary/2.2.1.5204": {
+        "type": "package",
+        "dependencies": {
+          "DynamoVisualProgramming.Core": "2.2.1.5204"
+        },
+        "compile": {
+          "lib/net47/CoreNodeModels.dll": {},
+          "lib/net47/CoreNodeModelsWpf.dll": {},
+          "lib/net47/DynamoCoreWpf.dll": {}
+        },
+        "runtime": {
+          "lib/net47/_._": {}
+        }
+      },
+      "DynamoVisualProgramming.ZeroTouchLibrary/2.2.1.5204": {
+        "type": "package",
+        "dependencies": {
+          "DynamoVisualProgramming.DynamoServices": "2.2.1.5204"
+        },
+        "compile": {
+          "lib/net47/DynamoUnits.dll": {},
+          "lib/net47/ProtoGeometry.dll": {}
+        },
+        "runtime": {
+          "lib/net47/_._": {}
+        }
+      },
+      "Newtonsoft.Json/8.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "NUnit/2.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/_._": {}
+        }
+      },
+      "Prism/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "1.0.0"
+        },
+        "compile": {
+          "lib/NET40/Microsoft.Expression.Interactions.dll": {},
+          "lib/NET40/Microsoft.Practices.Prism.Interactivity.dll": {},
+          "lib/NET40/Microsoft.Practices.Prism.dll": {},
+          "lib/NET40/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/NET40/_._": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x86": {
+      "CommonServiceLocator/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/NET35/Microsoft.Practices.ServiceLocation.dll": {}
+        },
+        "runtime": {
+          "lib/NET35/_._": {}
+        }
+      },
+      "DynamoVisualProgramming.Core/2.2.1.5204": {
+        "type": "package",
+        "dependencies": {
+          "DynamoVisualProgramming.ZeroTouchLibrary": "2.2.1.5204",
+          "NUnit": "2.6.3",
+          "Newtonsoft.Json": "8.0.3",
+          "Prism": "4.1.0"
+        },
+        "compile": {
+          "lib/net47/DSIronPython.dll": {},
+          "lib/net47/DesignScriptBuiltin.dll": {},
+          "lib/net47/DynamoApplications.dll": {},
+          "lib/net47/DynamoCore.dll": {},
+          "lib/net47/DynamoInstallDetective.dll": {},
+          "lib/net47/DynamoShapeManager.dll": {},
+          "lib/net47/DynamoUtilities.dll": {},
+          "lib/net47/ProtoCore.dll": {},
+          "lib/net47/VMDataBridge.dll": {}
+        },
+        "runtime": {
+          "lib/net47/_._": {}
+        }
+      },
+      "DynamoVisualProgramming.DynamoServices/2.2.1.5204": {
+        "type": "package",
+        "compile": {
+          "lib/net47/DynamoServices.dll": {}
+        },
+        "runtime": {
+          "lib/net47/_._": {}
+        }
+      },
+      "DynamoVisualProgramming.WpfUILibrary/2.2.1.5204": {
+        "type": "package",
+        "dependencies": {
+          "DynamoVisualProgramming.Core": "2.2.1.5204"
+        },
+        "compile": {
+          "lib/net47/CoreNodeModels.dll": {},
+          "lib/net47/CoreNodeModelsWpf.dll": {},
+          "lib/net47/DynamoCoreWpf.dll": {}
+        },
+        "runtime": {
+          "lib/net47/_._": {}
+        }
+      },
+      "DynamoVisualProgramming.ZeroTouchLibrary/2.2.1.5204": {
+        "type": "package",
+        "dependencies": {
+          "DynamoVisualProgramming.DynamoServices": "2.2.1.5204"
+        },
+        "compile": {
+          "lib/net47/DynamoUnits.dll": {},
+          "lib/net47/ProtoGeometry.dll": {}
+        },
+        "runtime": {
+          "lib/net47/_._": {}
+        }
+      },
+      "Newtonsoft.Json/8.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "NUnit/2.6.3": {
+        "type": "package",
+        "compile": {
+          "lib/nunit.framework.dll": {}
+        },
+        "runtime": {
+          "lib/_._": {}
+        }
+      },
+      "Prism/4.1.0": {
+        "type": "package",
+        "dependencies": {
+          "CommonServiceLocator": "1.0.0"
+        },
+        "compile": {
+          "lib/NET40/Microsoft.Expression.Interactions.dll": {},
+          "lib/NET40/Microsoft.Practices.Prism.Interactivity.dll": {},
+          "lib/NET40/Microsoft.Practices.Prism.dll": {},
+          "lib/NET40/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/NET40/_._": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CommonServiceLocator/1.0.0": {
+      "sha512": "RJjv0yxm+Fk/ak/CVMTGr0ng7g/nudkVYos4eQrIDpth3BdE1j7J2ddRm8FXtOoIZbgDqTU6hKq5zoackwL3HQ==",
+      "type": "package",
+      "path": "commonservicelocator/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "commonservicelocator.1.0.0.nupkg.sha512",
+        "commonservicelocator.nuspec",
+        "lib/NET35/Microsoft.Practices.ServiceLocation.XML",
+        "lib/NET35/Microsoft.Practices.ServiceLocation.dll",
+        "lib/NET35/Microsoft.Practices.ServiceLocation.pdb",
+        "lib/SL30/Microsoft.Practices.ServiceLocation.XML",
+        "lib/SL30/Microsoft.Practices.ServiceLocation.dll"
+      ]
+    },
+    "DynamoVisualProgramming.Core/2.2.1.5204": {
+      "sha512": "hxiRhZ63IEiL7NWRzSoqluB0M0kiq0LgkcsjPj8PIUfiXqapber/XO5wJhgJUEbvE9O/WYKF9vT9GBcMfwzQtA==",
+      "type": "package",
+      "path": "dynamovisualprogramming.core/2.2.1.5204",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net47/DynamoCore.XML",
+        "dynamovisualprogramming.core.2.2.1.5204.nupkg.sha512",
+        "dynamovisualprogramming.core.nuspec",
+        "lib/net47/DSIronPython.dll",
+        "lib/net47/DesignScriptBuiltin.dll",
+        "lib/net47/DynamoApplications.dll",
+        "lib/net47/DynamoCore.dll",
+        "lib/net47/DynamoInstallDetective.dll",
+        "lib/net47/DynamoShapeManager.dll",
+        "lib/net47/DynamoUtilities.dll",
+        "lib/net47/ProtoCore.dll",
+        "lib/net47/VMDataBridge.dll"
+      ]
+    },
+    "DynamoVisualProgramming.DynamoServices/2.2.1.5204": {
+      "sha512": "MiA6nkufjNbwGLusjy8W6ijkzx3ir9czv+9Y4pVtdVJl+5ChAMfXtHHKO81g4jIvGDk0xT2riS/9//iUU/MuTg==",
+      "type": "package",
+      "path": "dynamovisualprogramming.dynamoservices/2.2.1.5204",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net47/DynamoServices.XML",
+        "dynamovisualprogramming.dynamoservices.2.2.1.5204.nupkg.sha512",
+        "dynamovisualprogramming.dynamoservices.nuspec",
+        "lib/net47/DynamoServices.dll"
+      ]
+    },
+    "DynamoVisualProgramming.WpfUILibrary/2.2.1.5204": {
+      "sha512": "dy+d4iynGweijAYMCjmTZ4ZCM/ClYv44clnEQbbiA/SAq3MLKpuw9hvyzcbOOm769vjfaxQSUiE9KaW9P8M+Uw==",
+      "type": "package",
+      "path": "dynamovisualprogramming.wpfuilibrary/2.2.1.5204",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dynamovisualprogramming.wpfuilibrary.2.2.1.5204.nupkg.sha512",
+        "dynamovisualprogramming.wpfuilibrary.nuspec",
+        "lib/net47/CoreNodeModels.dll",
+        "lib/net47/CoreNodeModelsWpf.dll",
+        "lib/net47/DynamoCoreWpf.dll"
+      ]
+    },
+    "DynamoVisualProgramming.ZeroTouchLibrary/2.2.1.5204": {
+      "sha512": "ekZFq4YviQ8yiZVFlBHscOcuHGM/mCONKcCu7U52rSsWiNe2MPuFWCVfQcDM83zNIrQpR6zjWHUntQ/OZIrw1w==",
+      "type": "package",
+      "path": "dynamovisualprogramming.zerotouchlibrary/2.2.1.5204",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net47/ProtoGeometry.XML",
+        "dynamovisualprogramming.zerotouchlibrary.2.2.1.5204.nupkg.sha512",
+        "dynamovisualprogramming.zerotouchlibrary.nuspec",
+        "lib/net47/DynamoUnits.dll",
+        "lib/net47/ProtoGeometry.dll"
+      ]
+    },
+    "Newtonsoft.Json/8.0.3": {
+      "sha512": "KGsYQdS2zLH+H8x2cZaSI7e+YZ4SFIbyy1YJQYl6GYBWjf5o4H1A68nxyq+WTyVSOJQ4GqS/DiPE+UseUizgMg==",
+      "type": "package",
+      "path": "newtonsoft.json/8.0.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.xml",
+        "newtonsoft.json.8.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "NUnit/2.6.3": {
+      "sha512": "zGYW/N4U8H1Y6Xr6aGQZgaDtfpRJSlbx7A9Fg3WNUV3EKEUe1LwjnHw9NH81GVWYzKlOBLZmFp/q90YJwT2vzQ==",
+      "type": "package",
+      "path": "nunit/2.6.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/nunit.framework.dll",
+        "lib/nunit.framework.xml",
+        "license.txt",
+        "nunit.2.6.3.nupkg.sha512",
+        "nunit.nuspec"
+      ]
+    },
+    "Prism/4.1.0": {
+      "sha512": "V4pNkp9iutnJToIkPKeHaVT5M2m9sWTgq2xLHPD51OAg5VNS9oTx4E/vZMdXMcPQwpHbHlF04T8fMLKZTo8S3g==",
+      "type": "package",
+      "path": "prism/4.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/NET40/Microsoft.Expression.Interactions.dll",
+        "lib/NET40/Microsoft.Practices.Prism.Interactivity.dll",
+        "lib/NET40/Microsoft.Practices.Prism.Interactivity.xml",
+        "lib/NET40/Microsoft.Practices.Prism.dll",
+        "lib/NET40/Microsoft.Practices.Prism.xml",
+        "lib/NET40/System.Windows.Interactivity.dll",
+        "lib/SL4/Microsoft.Expression.Interactions.dll",
+        "lib/SL4/Microsoft.Practices.Prism.Interactivity.dll",
+        "lib/SL4/Microsoft.Practices.Prism.Interactivity.xml",
+        "lib/SL4/Microsoft.Practices.Prism.dll",
+        "lib/SL4/Microsoft.Practices.Prism.xml",
+        "lib/SL4/System.Windows.Interactivity.dll",
+        "lib/SL5/Microsoft.Expression.Interactions.dll",
+        "lib/SL5/Microsoft.Practices.Prism.Interactivity.dll",
+        "lib/SL5/Microsoft.Practices.Prism.Interactivity.xml",
+        "lib/SL5/Microsoft.Practices.Prism.dll",
+        "lib/SL5/Microsoft.Practices.Prism.xml",
+        "lib/SL5/System.Windows.Interactivity.dll",
+        "prism.4.1.0.nupkg.sha512",
+        "prism.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "DynamoVisualProgramming.Core >= 2.2.1.5204",
+      "DynamoVisualProgramming.DynamoServices >= 2.2.1.5204",
+      "DynamoVisualProgramming.WpfUILibrary >= 2.2.1.5204",
+      "DynamoVisualProgramming.ZeroTouchLibrary >= 2.2.1.5204"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\vantelgm7702\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\vantelgm7702\\OneDrive - ARCADIS\\Michael\\Visual studio 2017\\Track\\Track\\Track.csproj",
+      "projectName": "Track",
+      "projectPath": "C:\\Users\\vantelgm7702\\OneDrive - ARCADIS\\Michael\\Visual studio 2017\\Track\\Track\\Track.csproj",
+      "packagesPath": "C:\\Users\\vantelgm7702\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vantelgm7702\\OneDrive - ARCADIS\\Michael\\Visual studio 2017\\Track\\Track\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\vantelgm7702\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "dependencies": {
+          "DynamoVisualProgramming.Core": {
+            "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "target": "Package",
+            "version": "[2.2.1.5204, )"
+          },
+          "DynamoVisualProgramming.DynamoServices": {
+            "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "target": "Package",
+            "version": "[2.2.1.5204, )"
+          },
+          "DynamoVisualProgramming.WpfUILibrary": {
+            "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "target": "Package",
+            "version": "[2.2.1.5204, )"
+          },
+          "DynamoVisualProgramming.ZeroTouchLibrary": {
+            "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "target": "Package",
+            "version": "[2.2.1.5204, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

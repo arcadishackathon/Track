@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\vantelgm7702\\OneDrive - ARCADIS\\Michael\\Visual studio 2017\\Track\\Track\\Track.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\vantelgm7702\\OneDrive - ARCADIS\\Michael\\Visual studio 2017\\Track\\Track\\Track.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vantelgm7702\\OneDrive - ARCADIS\\Michael\\Visual studio 2017\\Track\\Track\\Track.csproj",
+        "projectName": "Track",
+        "projectPath": "C:\\Users\\vantelgm7702\\OneDrive - ARCADIS\\Michael\\Visual studio 2017\\Track\\Track\\Track.csproj",
+        "packagesPath": "C:\\Users\\vantelgm7702\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vantelgm7702\\OneDrive - ARCADIS\\Michael\\Visual studio 2017\\Track\\Track\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\vantelgm7702\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "DynamoVisualProgramming.Core": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[2.2.1.5204, )"
+            },
+            "DynamoVisualProgramming.DynamoServices": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[2.2.1.5204, )"
+            },
+            "DynamoVisualProgramming.WpfUILibrary": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[2.2.1.5204, )"
+            },
+            "DynamoVisualProgramming.ZeroTouchLibrary": {
+              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[2.2.1.5204, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
